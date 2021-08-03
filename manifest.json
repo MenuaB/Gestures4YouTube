@@ -1,0 +1,22 @@
+{
+    "name":"Gestures4YouTube",
+    "description": "A chrome extension to control YouTube tab actions using hand gestures",
+    "version": "0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "./background.js"
+    },
+    "action": {
+        "default_popup": "./popup.html"
+    },
+    "options_page": "./options.html",
+    "permissions": [
+        "scripting",
+        "storage",
+        "tabs"
+    ],
+    "host_permissions": [
+        "https://www.youtube.com/*"
+    ]
+
+}
