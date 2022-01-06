@@ -1,4 +1,4 @@
-// document.querySelector("#player").style.transform = 'rotate(100deg)';
+document.querySelector("#player").style.transform = 'rotate(100deg)';
 // var player = document.querySelector("#player");
 // player.ariaMultiSelectable()
 document.querySelector('video').currentTime = 3000;
